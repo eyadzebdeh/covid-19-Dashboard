@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">COVID-19 Dashboard</string>
+    <string name="lbl_covid_map">Covid 19 Map</string>
+    <string name="lbl_news_feed">News Feed</string>
+    <string name="lbl_total_deaths">Total Deaths</string>
+    <string name="lbl_total_cases">Total Cases</string>
+    <string name="lbl_danger_level">Danger Level</string>
+    <string name="lbl_today_open_cases">Today new cases</string>
+    <string name="lbl_fetch_info_error">Error fetching countries data</string>
+    <string name="lbl_no_info_available">Info are not available for the chosen date</string>
+    <string name="lbl_news_title">%s News Feed</string>
+    <string name="lbl_invalid_country_code">Could not find country code for this country</string>
+    <string name="lbl_get_news_failure">Could not fetch news for this country</string>
+    <string name="no_news_available">No News Available</string>
+    <string name="lbl_no_internet_connection">You\'re offline, Please check your data or Wifi connection</string>
+</resources>

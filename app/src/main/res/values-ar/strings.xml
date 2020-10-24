@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_covid_map">خريطة كوفيد ١٩</string>
+    <string name="lbl_news_feed">آخر الأخبار</string>
+    <string name="lbl_total_deaths">مجموع الوفيات</string>
+    <string name="lbl_total_cases">مجموع الحالات</string>
+    <string name="lbl_danger_level">درجة الخطورة</string>
+    <string name="lbl_today_open_cases">الحالات الجديدة اليوم</string>
+    <string name="lbl_fetch_info_error">خطأ في سحب معلومات الدولة</string>
+    <string name="lbl_no_info_available">لا يوجد معلومات في هذا التاريخ</string>
+    <string name="lbl_news_title">%s آخر الأخبار</string>
+    <string name="lbl_invalid_country_code">لم نستطع العثور على رمز الدولة</string>
+    <string name="lbl_get_news_failure">لا يوجد أخبار</string>
+    <string name="no_news_available">لا يوجد أخبار</string>
+    <string name="lbl_no_internet_connection">الجهاز غير متصل بالانترنت</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main.xml"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_covid_map"
+        android:id="@+id/mapFragment"
+        android:name="com.eyad.covid_19dashboard.presentation.map.CovidMapFragment"
+        android:label="MapFragment" >
+        <action
+            android:id="@+id/action_mapFragment_to_countryInfoFragment"
+            app:destination="@id/countryInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryInfoFragment"
+        android:name="com.eyad.covid_19dashboard.presentation.countryinfo.CountryInfoFragment"
+        android:label="CountryInfoFragment" >
+        <argument
+            android:name="country"
+            app:argType="com.eyad.covid_19dashboard.domain.model.CountryTrackingInfo" />
+        <argument
+            android:name="date"
+            app:argType="java.util.Date" />
+        <action
+            android:id="@+id/action_countryInfoFragment_to_newsFragment"
+            app:destination="@id/newsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.eyad.covid_19dashboard.presentation.news.NewsFragment"
+        android:label="NewsFragment" >
+        <argument
+            android:name="country"
+            app:argType="com.eyad.covid_19dashboard.domain.model.CountryTrackingInfo" />
+        <action
+            android:id="@+id/action_newsFragment_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.eyad.covid_19dashboard.presentation.newsdetails.NewsDetailsFragment"
+        android:label="NewsDetailsFragment" >
+        <argument
+            android:name="article"
+            app:argType="com.eyad.covid_19dashboard.domain.model.Article" />
+    </fragment>
+</navigation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryVariant">#0097A7</color>
+    <color name="colorSecondary">#850003</color>
+
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#F5F5F5</color>
+
+    <color name="colorLowestDanger">#9934eb58</color>
+    <color name="colorLowDanger">#99d5db65</color>
+    <color name="colorHighDanger">#99e84e3a</color>
+    <color name="colorHighestDanger">#998a1101</color>
+
+
+
+</resources>
